@@ -48,11 +48,3 @@ jobs:
         asset_path: ./docs.zip
         asset_name: docs.zip
         asset_content_type: application/zip
-
-    # - name: Upload release notes
-    #   if: steps.tag_release.outputs.tag
-    #   uses: Roang-zero1/github-create-release-action@master
-    #   with:
-    #     created_tag: ${{ steps.tag_release.outputs.tag }}
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
