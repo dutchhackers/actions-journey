@@ -18,3 +18,6 @@ Note: Repo doesn't have an initial tag yet.
 
 Note: keyword '#patch' successfully tested
 
+- Configure default bump: patch
+
+Note: works!
