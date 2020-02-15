@@ -41,3 +41,6 @@ Note: merging PR did create a new release. However, it ignored the version from 
 - Configure Action GitHub Create Tag Release
 
 - Commit and push to master
+
+Note: various errors: yml syntax, previous step->tag reference
+
