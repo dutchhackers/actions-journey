@@ -19,9 +19,9 @@ jobs:
         WITH_V: true
         DEFAULT_BUMP: patch
     - name: Upload release notes
-        if: steps.tag_release.outputs.new_tag
-        uses: Roang-zero1/github-create-release-action@master
-        with:
-          created_tag: ${{ steps.tag_release.outputs.new_tag }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: steps.tag_release.outputs.tag
+      uses: Roang-zero1/github-create-release-action@master
+      with:
+        created_tag: ${{ steps.tag_release.outputs.tag }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
