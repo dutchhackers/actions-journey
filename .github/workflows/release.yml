@@ -18,10 +18,22 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         WITH_V: true
         DEFAULT_BUMP: patch
-    - name: Upload release notes
-      if: steps.tag_release.outputs.tag
-      uses: Roang-zero1/github-create-release-action@master
-      with:
-        created_tag: ${{ steps.tag_release.outputs.tag }}
+
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.tag_release.outputs.tag }}
+        release_name: Release ${{ steps.tag_release.outputs.tag }}
+        draft: false
+        prerelease: false
+
+    # - name: Upload release notes
+    #   if: steps.tag_release.outputs.tag
+    #   uses: Roang-zero1/github-create-release-action@master
+    #   with:
+    #     created_tag: ${{ steps.tag_release.outputs.tag }}
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
