@@ -44,3 +44,5 @@ Note: merging PR did create a new release. However, it ignored the version from 
 
 Note: various errors: yml syntax, previous step->tag reference
 
+Note: succes! Tagging + releasing works
+
