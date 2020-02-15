@@ -14,3 +14,7 @@ Note: Repo doesn't have an initial tag yet.
 
 - Push to master
 
+`Tag v0.1.1 created on master` 
+
+Note: keyword '#patch' successfully tested
+
