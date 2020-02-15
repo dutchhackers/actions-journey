@@ -38,4 +38,6 @@ Note: merging the PR did not trigger the workflow. (Because NOT merged to master
 
 Note: merging PR did create a new release. However, it ignored the version from the branch name (0.2.0). Instead it created the next patch version.
 
+- Configure Action GitHub Create Tag Release
 
+- Commit and push to master
