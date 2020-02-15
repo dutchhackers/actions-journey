@@ -21,3 +21,16 @@ Note: keyword '#patch' successfully tested
 - Configure default bump: patch
 
 Note: works!
+
+- Create feature branch: TestOtherBranch
+
+- Commit and push new branch
+
+Note: did not trigger workflow
+
+- Create release branch (0.2.0) from master
+
+- Create PR from feature branch to release branch
+
+Note: merging the PR did not trigger the workflow. (Because NOT merged to master)
+
