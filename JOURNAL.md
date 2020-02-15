@@ -34,3 +34,8 @@ Note: did not trigger workflow
 
 Note: merging the PR did not trigger the workflow. (Because NOT merged to master)
 
+- Create PR from release branch (0.2.0) to master branch
+
+Note: merging PR did create a new release. However, it ignored the version from the branch name (0.2.0). Instead it created the next patch version.
+
+
