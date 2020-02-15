@@ -9,3 +9,4 @@
 | 3 | GitHub Create Tag Release | 11 | https://github.com/marketplace/actions/github-create-tag-release | |
 | 4 | Tag/Release on Push Action | 3 | https://github.com/marketplace/actions/tag-release-on-push-action | Nice label-actions [link] (https://github.com/marketplace/actions/tag-release-on-push-action) | 
 
+| 5 | Upload a Release Asset | 145 | https://github.com/marketplace/actions/upload-a-release-asset | Verified creator (GitHub) |
