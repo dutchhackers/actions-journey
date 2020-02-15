@@ -26,3 +26,11 @@ Note: works!
 
 - Commit and push new branch
 
+Note: did not trigger workflow
+
+- Create release branch (0.2.0) from master
+
+- Create PR from feature branch to release branch
+
+Note: merging the PR did not trigger the workflow. (Because NOT merged to master)
+
