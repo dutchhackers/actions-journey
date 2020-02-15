@@ -55,3 +55,6 @@ Note: succes! Tagging + releasing works
 - Add 'upload assets' step
 
 - Add name to 'checkout' step
+
+Note: Adding custom assets works!
+
