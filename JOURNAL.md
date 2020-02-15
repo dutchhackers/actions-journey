@@ -51,3 +51,7 @@ Note: succes! Tagging + releasing works
 - Next challenge: let's try to add an asset to the release
 
 - Focus on Action: [GitHub Action - Release API](https://github.com/marketplace/actions/upload-a-release-asset)
+
+- Add 'upload assets' step
+
+- Add name to 'checkout' step
