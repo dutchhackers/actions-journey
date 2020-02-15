@@ -31,6 +31,10 @@ jobs:
       with:
         tag_name: ${{ steps.tag_release.outputs.tag }}
         release_name: ${{ steps.tag_release.outputs.tag }} # eg. prefix with Release ..
+        body: |
+            Changes in this Release
+            - First Change (example)
+            - Second Change (example 2)
         draft: false
         prerelease: false
 
