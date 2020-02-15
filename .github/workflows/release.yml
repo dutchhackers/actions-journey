@@ -14,7 +14,7 @@ jobs:
         fetch-depth: '0'
     - name: Build project # This would actually build your project, using zip for an example artifact
       run: |
-        zip --junk-paths my-docs README.md
+        zip --junk-paths my-docs README.md JOURNAL.md
     - name: Bump version and push tag
       id: tag_release
       uses: anothrNick/github-tag-action@1.17.2
