@@ -21,3 +21,8 @@ Note: keyword '#patch' successfully tested
 - Configure default bump: patch
 
 Note: works!
+
+- Create feature branch: TestOtherBranch
+
+- Commit and push new branch
+
