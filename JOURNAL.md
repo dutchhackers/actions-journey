@@ -58,3 +58,4 @@ Note: succes! Tagging + releasing works
 
 Note: Adding custom assets works!
 
+- Add more Actions to TOOLS + add example workflow (Upload Assets)
