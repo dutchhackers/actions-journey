@@ -46,3 +46,5 @@ Note: various errors: yml syntax, previous step->tag reference
 
 Note: succes! Tagging + releasing works
 
+- Add examples folder
+
