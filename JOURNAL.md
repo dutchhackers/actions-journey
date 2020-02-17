@@ -61,3 +61,5 @@ Note: Adding custom assets works!
 - Add more Actions to TOOLS + add example workflow (Upload Assets)
 
 - Finalize version 0.3.0
+
+- Add actions/upload-artifact Action
